@@ -1991,6 +1991,8 @@ address {
   font-size: 11px;
   line-height: 1.36;
   color: #9da4bd;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 
 .footer__list {

@@ -17,6 +17,7 @@
     font-size: 11px;
     line-height: 1.36;
     color: $color-text-slider;
+    flex-shrink: 0;
   }
   &__list {
     display: flex;
