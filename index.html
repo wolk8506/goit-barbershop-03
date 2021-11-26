@@ -143,22 +143,56 @@
       <section class="section about" id="about">
         <ul class="about__photo">
           <li>
-            <img
-              class="about__img"
-              src="./images/about1.jpg"
-              alt="Барбер бреет бороду"
-              width="270"
-              height="445"
-            />
+            <picture>
+              <source
+                srcset="./images/about-1@1x-768.webp 1x, ./images/about-1@2x-768.webp 2x"
+                type="image/webp"
+                media="(max-width: 1279px)" />
+              <source
+                srcset="./images/about-1@1x-1280.webp 1x, ./images/about-1@2x-1280.webp 2x"
+                type="image/webp"
+                media="(min-width: 1280px)" />
+
+              <source
+                srcset="./images/about-1@1x-768.jpg 1x, ./images/about-1@2x-768.jpg 2x"
+                media="(max-width: 1279px)" />
+              <source
+                srcset="./images/about-1@1x-1280.jpg 1x, ./images/about-1@2x-1280.jpg 2x"
+                media="(min-width: 1280px)" />
+
+              <img
+                class="about__img"
+                src="./images/about1.jpg"
+                alt="Барбер бреет бороду"
+                width="270"
+                height="445"
+            /></picture>
           </li>
           <li>
-            <img
-              class="about__img"
-              src="./images/about2.jpg"
-              alt="Барбер бреет бороду"
-              width="270"
-              height="445"
-            />
+            <picture>
+              <source
+                srcset="./images/about-2@1x-768.webp 1x, ./images/about-2@2x-768.webp 2x"
+                type="image/webp"
+                media="(max-width: 1279px)" />
+              <source
+                srcset="./images/about-2@1x-1280.webp 1x, ./images/about-2@2x-1280.webp 2x"
+                type="image/webp"
+                media="(min-width: 1280px)" />
+
+              <source
+                srcset="./images/about-2@1x-768.jpg 1x, ./images/about-2@2x-768.jpg 2x"
+                media="(max-width: 1279px)" />
+              <source
+                srcset="./images/about-2@1x-1280.jpg 1x, ./images/about-2@2x-1280.jpg 2x"
+                media="(min-width: 1280px)" />
+
+              <img
+                class="about__img"
+                src="./images/about2.jpg"
+                alt="Барбер бреет бороду"
+                width="270"
+                height="445"
+            /></picture>
           </li>
         </ul>
         <div class="about-discription">
@@ -326,13 +360,38 @@
             </div>
           </li>
           <li class="master__item">
-            <img
-              class="master__photo"
-              src="./images/master2.jpg"
-              alt="Michele Doe"
-              width="370"
-              height="346"
-            />
+            <picture>
+              <source
+                srcset="./images/master-2@1x-480.webp 1x, ./images/master-2@2x-480.webp 2x"
+                type="image/webp"
+                media="(max-width: 767px)" />
+              <source
+                srcset="./images/master-2@1x-768.webp 1x, ./images/master-2@2x-768.webp 2x"
+                type="image/webp"
+                media="(max-width: 1279px)" />
+              <source
+                srcset="./images/master-2@1x-1280.webp 1x, ./images/master-2@2x-1280.webp 2x"
+                type="image/webp"
+                media="(min-width: 1280px)" />
+
+              <source
+                srcset="./images/master-2@1x-480.jpg 1x, ./images/master-2@2x-480.jpg 2x"
+                media="(max-width: 767px)" />
+              <source
+                srcset="./images/master-2@1x-768.jpg 1x, ./images/master-2@2x-768.jpg 2x"
+                media="(max-width: 1279px)" />
+              <source
+                srcset="./images/master-2@1x-1280.jpg 1x, ./images/master-2@2x-1280.jpg 2x"
+                media="(min-width: 1280px)" />
+
+              <img
+                class="master__photo"
+                src="./images/master2.jpg"
+                alt="Michele Doe"
+                width="370"
+                height="346"
+            /></picture>
+
             <div class="master__blok-info">
               <h3 class="master__name" lang="en">Michele Doe</h3>
               <p class="master__barber" lang="en">Extreme Barber</p>
@@ -365,13 +424,38 @@
             </div>
           </li>
           <li class="master__item">
-            <img
-              class="master__photo"
-              src="./images/master3.jpg"
-              alt="Alan Black"
-              width="370"
-              height="346"
-            />
+            <picture>
+              <source
+                srcset="./images/master-3@1x-480.webp 1x, ./images/master-3@2x-480.webp 2x"
+                type="image/webp"
+                media="(max-width: 767px)" />
+              <source
+                srcset="./images/master-3@1x-768.webp 1x, ./images/master-3@2x-768.webp 2x"
+                type="image/webp"
+                media="(max-width: 1279px)" />
+              <source
+                srcset="./images/master-3@1x-1280.webp 1x, ./images/master-3@2x-1280.webp 2x"
+                type="image/webp"
+                media="(min-width: 1280px)" />
+
+              <source
+                srcset="./images/master-3@1x-480.jpg 1x, ./images/master-3@2x-480.jpg 2x"
+                media="(max-width: 767px)" />
+              <source
+                srcset="./images/master-3@1x-768.jpg 1x, ./images/master-3@2x-768.jpg 2x"
+                media="(max-width: 1279px)" />
+              <source
+                srcset="./images/master-3@1x-1280.jpg 1x, ./images/master-3@2x-1280.jpg 2x"
+                media="(min-width: 1280px)" />
+
+              <img
+                class="master__photo"
+                src="./images/master3.jpg"
+                alt="Alan Black"
+                width="370"
+                height="346"
+            /></picture>
+
             <div class="master__blok-info">
               <h3 class="master__name" lang="en">Alan Black</h3>
               <p class="master__barber" lang="en">Extreme Barber</p>
@@ -410,40 +494,136 @@
         <h2 class="section-title visually-hidden">Портфолио</h2>
         <ul class="portfolio__list">
           <li class="portfolio__item">
-            <img
-              class="portfolio__img"
-              src="./images/portfolio1.jpg"
-              alt="Работа барбера"
-              width="270"
-              height="360"
-            />
+            <picture>
+              <source
+                srcset="./images/portfolio-1@1x-480.webp 1x, ./images/portfolio-1@2x-480.webp 2x"
+                type="image/webp"
+                media="(max-width: 767px)" />
+              <source
+                srcset="./images/portfolio-1@1x-768.webp 1x, ./images/portfolio-1@2x-768.webp 2x"
+                type="image/webp"
+                media="(max-width: 1279px)" />
+              <source
+                srcset="./images/portfolio-1@1x-1280.webp 1x, ./images/portfolio-1@2x-1280.webp 2x"
+                type="image/webp"
+                media="(min-width: 1280px)" />
+
+              <source
+                srcset="./images/portfolio-1@1x-480.jpg 1x, ./images/portfolio-1@2x-480.jpg 2x"
+                media="(max-width: 767px)" />
+              <source
+                srcset="./images/portfolio-1@1x-768.jpg 1x, ./images/portfolio-1@2x-768.jpg 2x"
+                media="(max-width: 1279px)" />
+              <source
+                srcset="./images/portfolio-1@1x-1280.jpg 1x, ./images/portfolio-1@2x-1280.jpg 2x"
+                media="(min-width: 1280px)" />
+
+              <img
+                class="portfolio__img"
+                src="./images/portfolio1.jpg"
+                alt="Работа барбера"
+                width="270"
+                height="360"
+            /></picture>
           </li>
           <li class="portfolio__item">
-            <img
-              class="portfolio__img"
-              src="./images/portfolio2.jpg"
-              alt="Работа барбера"
-              width="270"
-              height="360"
-            />
+            <picture>
+              <source
+                srcset="./images/portfolio-2@1x-480.webp 1x, ./images/portfolio-2@2x-480.webp 2x"
+                type="image/webp"
+                media="(max-width: 767px)" />
+              <source
+                srcset="./images/portfolio-2@1x-768.webp 1x, ./images/portfolio-2@2x-768.webp 2x"
+                type="image/webp"
+                media="(max-width: 1279px)" />
+              <source
+                srcset="./images/portfolio-2@1x-1280.webp 1x, ./images/portfolio-2@2x-1280.webp 2x"
+                type="image/webp"
+                media="(min-width: 1280px)" />
+
+              <source
+                srcset="./images/portfolio-2@1x-480.jpg 1x, ./images/portfolio-2@2x-480.jpg 2x"
+                media="(max-width: 767px)" />
+              <source
+                srcset="./images/portfolio-2@1x-768.jpg 1x, ./images/portfolio-2@2x-768.jpg 2x"
+                media="(max-width: 1279px)" />
+              <source
+                srcset="./images/portfolio-2@1x-1280.jpg 1x, ./images/portfolio-2@2x-1280.jpg 2x"
+                media="(min-width: 1280px)" />
+
+              <img
+                class="portfolio__img"
+                src="./images/portfolio2.jpg"
+                alt="Работа барбера"
+                width="270"
+                height="360"
+            /></picture>
           </li>
           <li class="portfolio__item">
-            <img
-              class="portfolio__img"
-              src="./images/portfolio3.jpg"
-              alt="Работа барбера"
-              width="270"
-              height="360"
-            />
+            <picture>
+              <source
+                srcset="./images/portfolio-3@1x-480.webp 1x, ./images/portfolio-3@2x-480.webp 2x"
+                type="image/webp"
+                media="(max-width: 767px)" />
+              <source
+                srcset="./images/portfolio-3@1x-768.webp 1x, ./images/portfolio-3@2x-768.webp 2x"
+                type="image/webp"
+                media="(max-width: 1279px)" />
+              <source
+                srcset="./images/portfolio-3@1x-1280.webp 1x, ./images/portfolio-3@2x-1280.webp 2x"
+                type="image/webp"
+                media="(min-width: 1280px)" />
+
+              <source
+                srcset="./images/portfolio-3@1x-480.jpg 1x, ./images/portfolio-3@2x-480.jpg 2x"
+                media="(max-width: 767px)" />
+              <source
+                srcset="./images/portfolio-3@1x-768.jpg 1x, ./images/portfolio-3@2x-768.jpg 2x"
+                media="(max-width: 1279px)" />
+              <source
+                srcset="./images/portfolio-3@1x-1280.jpg 1x, ./images/portfolio-3@2x-1280.jpg 2x"
+                media="(min-width: 1280px)" />
+
+              <img
+                class="portfolio__img"
+                src="./images/portfolio3.jpg"
+                alt="Работа барбера"
+                width="270"
+                height="360"
+            /></picture>
           </li>
           <li class="portfolio__item">
-            <img
-              class="portfolio__img"
-              src="./images/portfolio4.jpg"
-              alt="Работа барбера"
-              width="270"
-              height="360"
-            />
+            <picture>
+              <source
+                srcset="./images/portfolio-4@1x-480.webp 1x, ./images/portfolio-4@2x-480.webp 2x"
+                type="image/webp"
+                media="(max-width: 767px)" />
+              <source
+                srcset="./images/portfolio-4@1x-768.webp 1x, ./images/portfolio-4@2x-768.webp 2x"
+                type="image/webp"
+                media="(max-width: 1279px)" />
+              <source
+                srcset="./images/portfolio-4@1x-1280.webp 1x, ./images/portfolio-4@2x-1280.webp 2x"
+                type="image/webp"
+                media="(min-width: 1280px)" />
+
+              <source
+                srcset="./images/portfolio-4@1x-480.jpg 1x, ./images/portfolio-4@2x-480.jpg 2x"
+                media="(max-width: 767px)" />
+              <source
+                srcset="./images/portfolio-4@1x-768.jpg 1x, ./images/portfolio-4@2x-768.jpg 2x"
+                media="(max-width: 1279px)" />
+              <source
+                srcset="./images/portfolio-4@1x-1280.jpg 1x, ./images/portfolio-4@2x-1280.jpg 2x"
+                media="(min-width: 1280px)" />
+
+              <img
+                class="portfolio__img"
+                src="./images/portfolio4.jpg"
+                alt="Работа барбера"
+                width="270"
+                height="360"
+            /></picture>
           </li>
         </ul>
       </section>
