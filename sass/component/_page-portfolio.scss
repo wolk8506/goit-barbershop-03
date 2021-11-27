@@ -22,7 +22,6 @@
       margin-bottom: 0;
     }
   }
-
   &__subtitle {
     margin-bottom: 44px;
     color: $color-title;
@@ -33,7 +32,6 @@
       flex-wrap: wrap;
     }
   }
-
   &__list li + li {
     @media screen and (max-width: 767px) {
       margin-top: 30px;
